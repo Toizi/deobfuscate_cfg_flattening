@@ -1,0 +1,10 @@
+./undo_flattening.py samples/fla_test.elf 0x400500
+chmod +x samples/fla_test.elf.patched
+./undo_flattening.py samples/fla_loop.elf 0x400500
+chmod +x samples/fla_loop.elf.patched
+./undo_flattening.py samples/hash.elf 0x400500
+chmod +x samples/hash.elf.patched
+./undo_flattening.py samples/quarkslab.elf 0x400550
+chmod +x samples/quarkslab.elf.patched
+./undo_flattening.py samples/fla_test_2_cmovs.elf 0x400500
+chmod +x samples/fla_test_2_cmovs.elf.patched
